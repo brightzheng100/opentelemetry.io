@@ -623,7 +623,7 @@ receivers:
   prometheus:
     trim_metric_suffixes: true
     use_start_time_metric: true
-    start_time_metric_regex: .*
+    start_time_metric_regex: foo_bar_.*
     config:
       scrape_configs:
         - job_name: 'otel-collector'
